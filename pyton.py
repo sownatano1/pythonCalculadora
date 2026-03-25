@@ -4,10 +4,7 @@ import platform
 import math
 
 def clear_console():
-    if platform.system() == "Windows":
-        os.system("cls")
-    else:
-        os.system("clear")
+    os.system("cls")
 
 clear_console()
 print("Bem-vindo a Calculadora Pro Max 3000")
@@ -71,8 +68,11 @@ def Calculate():
         print(resultado)
 
     elif (simbolo == "d"):
-        resultado = numero1 / numero2
-        print(resultado)
+        if (numero2 == 0):
+            print("O resultado é 0")
+        else:
+            resultado = numero1 / numero2
+            print(resultado)
 
     elif (simbolo == "a"):
         resultado = numero1 + numero2
