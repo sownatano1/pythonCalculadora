@@ -1,7 +1,5 @@
 import time
 import os
-import platform
-import math
 
 def clear_console():
     os.system("cls")
@@ -35,24 +33,16 @@ def Escolha():
     print("Divisão = d")
     print("Adição = a")
     print("Subtração = s")
+    
+#Oi professor, ignora o comentario que a Luana deixou no meu codigo   
+    
 #AAAAAAAAAAAAAAAAAAAAAAAAA LUANA :)
-
-
-
-
 
 
 #Ouviram do Ipiranga, as margens plácidas
 #De um povo heroico, o brado retumbante
 #E o Sol da liberdade, em raios fúlgidos
 #Brilhou no céu da pátria nesse instante
-
-
-
-
-
-
-
 
 
 #hehe sou brasileiro com muito orgulho e muito amor <3
@@ -87,6 +77,5 @@ def Calculate():
         print("Escolha denovo")
         Escolha()
         Calculate()
-        
 
 Calculate()
